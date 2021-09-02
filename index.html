@@ -1,104 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Stylesheets-->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!--Javascript for icons-->
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-    
-
-    <title>HRISHI PORTFOLIO</title>
- 
-     
-  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HRISHI PORTFOLIO</title>
 </head>
 <body>
 
-    <!--Header of page have page logo,heading and navigation-->
-    <header>
-        <h1>HRISHIKESH KANABAR</h1>
-        <div>
-           <ul>
-              <li>
-                <i class="far fa-envelope"></i>
-                 <a href="#home">ABOUT ME</a>
-              </li>
-              <li >
-                <i class="fas fa-sms"></i>
-                 <a href="#work">PORTFOLIO</a>
-              </li>
-              <li >
-                <i class="fas fa-phone-alt"></i>
-                 <a href="#contact">CONTACT</a>
-              </li>
-              <li>
-                <i class="fas fa-mobile-alt"></i>
-                <a href="#resume">RESUME</a>
-             </li>
-           </ul>
-        </div>
-    </header>
+<header>
+  <img src="assets/images/Hrishikesh-Kanabar-640x640.png">
+  <h1>HRISHIKESH KANABAR</h1>
+</header>
 
-    <main class="content">
-      <div class="col-6 col-s-9">
-        <Section id="home" class="home-section ">
-          
-            <figure>
-                <img  class="home-page-image" src="assets/images/Hrishikesh-Kanabar-640x640.png" alt="Home page profile image">
-            </figure>
-        <h2>ABOUT ME</h2>
-        <article class="about-me">
-         <p> 
-             
-             Hello! I’m Hrishikesh Kanabar. 
-             I am passionate about UI/UX design and Web Design. 
-             I also work as full stack developer in IBM.
-             I am a also skilled front-end developer. 
-             I believe in team work and get job done.
-             
-        </p>
-         
-         </article>
-          
-            <button class="home-button-hireme" onclick="onHireMeClick()"> HIRE ME</button>
-            <button class="home-button-getcv" onclick="onGetCvClick()">GET  CV</button>
-            
-        </Section>   
-        </div>
-
-       <!---WORK START-->
-       <div class="col-3 col-s-12">
-       <Section id="work" class="work-section">
-           <h2> PORTFOLIO </h2>
-        <div class="container">
-            <div class="group">
-              <div class="port one">
-             
-              </div>
-              <div class="port two">
-                
-              </div>
-            </div>
-            <div class="group">
-              <div class="port three">
-                
-              </div>
-              
-            </div>
-       </Section>
-      </div>
-   
-        </Section id="contact col-3 col-s-12">
-           Contact
-        </Section >
-    </main>
-
-    <footer>
-        footer
-    </footer>
+<Section id="home" class="home-section">
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+     
+         <li>
+            <i class="far fa-envelope"></i>
+             <a href="#home">ABOUT ME</a>
+        </li>
     
+      <li>
+        <i class="fas fa-sms"></i>
+        <a href="#portfolio">WORK</a>
+      </li>
+      <li>
+        <i class="fas fa-phone-alt"></i>
+        <a href="#contact">CONTACT</a>
+      </li>
+      <li>
+        <i class="fas fa-mobile-alt"></i>
+        <a href="#resume">RESUME</a>
+      </li>
+    </ul>
+  </div>
+ 
+   
+ 
+  <div class="col-6 col-s-9">
+    
+    <h2>ABOUT ME</h1>
+    <p>Hello! I’m Hrishikesh Kanabar. 
+        I am passionate about UI/UX design and Web Design. 
+        I also work as full stack developer in IBM.
+        I am a also skilled front-end developer. 
+        I believe in team work and get job done.</p>
+        <button class="home-button-hireme" onclick="onHireMeClick()"> HIRE ME</button>
+        <button class="home-button-getcv" onclick="onGetCvClick()">GET  CV</button>
+  </div>
+
+  </Section>
+
+ 
+    <div class="col-12 col-s-9">
+        <Section id="portfolio" class="portflio-section">
+        
+            <h2>PORTFOLIO</h2>
+            <div class="flex-container">
+              <div class="flex-item one">
+                <span>RUN BUDDY</span>
+              </div>
+              <div class="flex-item two">
+                <span>WEB GAINT SEO</span>
+              </div>
+              <div class="flex-item three">
+                <span>MY PORTFOLIO</span>
+              </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+  <Section id="contact">
+    <div class="col-12 col-s-9">
+     contact
+    </div>
+
+</div>
+</section>
+
+<footer>
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</footer>
+
 </body>
 </html>
