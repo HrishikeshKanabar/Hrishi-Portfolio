@@ -68,7 +68,7 @@
   }
   
   .home-section{
-      background-image: url("./assets/images/about-me-background.jpg");
+      background-image: url("../images/about-me-background.jpg");
       background-size: cover;
       background-position: center;
   }
@@ -91,7 +91,7 @@
   }
   
   .portflio-section{
-      background-image: url("./assets/images/port-back-web.jpg");
+      background-image: url("../images/port-back-web.jpg");
       background-size: cover;
       background-position: center;
      
@@ -160,20 +160,20 @@
   
     .one{
   
-      background-image: url("./assets/images/run-buddy.JPG");
+      background-image: url("../images/run-buddy.JPG");
       background-size: cover;
       background-position: center;
     
     }
   
     .two{
-      background-image: url("./assets/images/Web-gaint-Horesion.JPG");
+      background-image: url("../images/Web-gaint-Horesion.JPG");
       background-size: cover;
       background-position: center;
     }
   
     .three{
-      background-image: url("./assets/images/port.JPG");
+      background-image: url("../images/port.JPG");
       background-size: cover;
       background-position: center;
     }
