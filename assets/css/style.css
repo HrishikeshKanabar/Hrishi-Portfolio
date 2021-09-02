@@ -159,7 +159,7 @@
     }
   
     .one{
-  
+     
       background-image: url("../images/run-buddy.JPG");
       background-size: cover;
       background-position: center;
@@ -177,7 +177,23 @@
       background-size: cover;
       background-position: center;
     }
-    
+
+    .one:hover{
+
+        width:32%;
+        height:600px;
+       
+    }
+
+    .two:hover{
+        width:32%;
+        height:600px;
+    }
+
+    .three:hover{
+        width:32%;
+        height:600px;
+    }
   
   
   
