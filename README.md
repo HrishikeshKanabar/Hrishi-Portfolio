@@ -72,7 +72,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 Mock-Up
 
-##Downloads and running code locally
+## Downloads and running code locally
 
 Step-1 git clone  https://github.com/HrishikeshKanabar/Hrishi-Portfolio.git
 
