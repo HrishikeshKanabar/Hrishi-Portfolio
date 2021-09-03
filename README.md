@@ -22,16 +22,24 @@ FEW FEATURES:
 
 ## Full snap of web application
 
-iphone X and above view         |  
-:--------------------------------:
+FULL SCREEN VIEW         |  
+:--------------------------------:|
 ![iphone X view](https://github.com/HrishikeshKanabar/Hrishi-Portfolio/blob/main/assets/images/full-snap.JPG)
 
 
 ## Website support for Desktop , Mobile and Tablets
 
-iphone X and above view         |  iphone 6/7/8 Plus view
+IPHONE X AND ABOVE VIEW        |  IPHONE 6/7/8 PLUS VIEW
 :--------------------------------:|:-------------------------:
 ![iphone X view](https://github.com/HrishikeshKanabar/Hrishi-Portfolio/blob/main/assets/images/IPHONE%20-%20X%20and%20above.JPG)         |  ![iphone 6/7/8 Plus view](https://github.com/HrishikeshKanabar/Hrishi-Portfolio/blob/main/assets/images/IPhone-6-7-8-Plus.JPG)
+
+IPAD VIEW                         | ANDROID DEVICES VIEW
+:--------------------------------:|:-------------------------:
+![ipad view](https://github.com/HrishikeshKanabar/Hrishi-Portfolio/blob/main/assets/images/IPAD_SCREEN.JPG)         |  ![Android devices view](https://github.com/HrishikeshKanabar/Hrishi-Portfolio/blob/main/assets/images/Android%20devices(Galaxy%20S5_PIXEL).JPG)
+
+RANDOM RESPONSE VIEW   
+:--------------------------:|
+![Random response view](https://github.com/HrishikeshKanabar/Hrishi-Portfolio/blob/main/assets/images/Random-Responsive-Screen.JPG)|
 
 
 
@@ -78,12 +86,3 @@ Step-5 Right click and select "Open in browser"
 
 Step-6 Select which browser you want to open web page
 
-
-
-ipad  view       | Android devices view
-:--------------------------------:|:-------------------------:
-![ipad view](https://github.com/HrishikeshKanabar/Hrishi-Portfolio/blob/main/assets/images/IPAD_SCREEN.JPG)         |  ![Android devices view](https://github.com/HrishikeshKanabar/Hrishi-Portfolio/blob/main/assets/images/Android%20devices(Galaxy%20S5_PIXEL).JPG)
-
-Random Responsive view    
-:--------------------------:|
-![ipad view](https://github.com/HrishikeshKanabar/Hrishi-Portfolio/blob/main/assets/images/Random-Responsive-Screen.JPG)|
