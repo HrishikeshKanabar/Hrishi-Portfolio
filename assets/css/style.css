@@ -1,3 +1,6 @@
+/* Styling start here*/
+
+/*Consoladate css this time which was feed back from previous challenge */
 * {
     box-sizing: border-box;
   }
@@ -194,11 +197,38 @@
         width:32%;
         height:600px;
     }
+
+  .contact-section{
+    background-image: url("../images/back-contact-one.jpg");
+    justify-content: space-between;
+  }
+
+  .contact-section h2{
+    text-align: center;
+    margin:5px;
+  }
+
+  .contact-links{
+    color :black;
+  }
+
+  /* Changing footer to footer semantic tag */
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+/* Changing footer to footer semantic tag */
+footer h2 {
+  font-size: 20px;
+}
   
-  
+  /* RESPONSIVE QUERY FOR Mobile,tablest and other devices VIEW PORT */
   
   @media only screen and (min-width: 600px) {
-    /* For tablets: */
+    /* For tablets and mobiles */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
@@ -214,6 +244,8 @@
     
     
   }
+
+  /* RESPONSIVE QUERY FOR DESKTOP VIEW PORT */
   @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -230,7 +262,7 @@
     .col-12 {width: 100%;}
     
   }
-  
+  /* RESPONSIVE QUERY FOR FLEX CARD OF PORTFOLIO */
   @media only screen and (min-width: 1722px){
       .container{
           width:25%;
@@ -238,4 +270,4 @@
   }
   
   
-  
+  /* Styling end here */
