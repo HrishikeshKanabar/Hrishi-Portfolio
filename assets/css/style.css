@@ -262,7 +262,12 @@ footer h2 {
     .col-12 {width: 100%;}
     
   }
-  
+  /* RESPONSIVE QUERY FOR FLEX CARD OF PORTFOLIO */
+  @media only screen and (min-width: 1722px){
+      .container{
+          width:25%;
+      }
+  }
   
   
   /* Styling end here */
