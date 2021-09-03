@@ -2,221 +2,213 @@
 
 /*Consoladate css this time which was feed back from previous challenge */
 * {
-    box-sizing: border-box;
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-  }
-  
-  html {
-    font-family: "Lucida Sans", sans-serif;
-  }
-  
-  header {
-    background-color:black;
-    color: #ffffff;
-    padding: 15px;
-    text-align: center;
-  }
-  
-  header img{
-      height:200px;
-      width:200px
-  }
-  
-  .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .menu li {
-    padding: 8px;
-    margin-bottom: 7px;
-    background-color:black;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  }
-  
-  .menu li:hover {
-    background-color: #0099cc;
-  }
-  
-  
-  
-  .footer {
-   
-    color: #ffffff;
-    text-align: center;
-    font-size: 12px;
-    padding: 15px;
-  }
-  
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-  
-  a {
-      color: #ffffff;
-      text-decoration: none;
-  }
-  
-  .home-section{
-      background-image: url("../images/about-me-background.jpg");
-      background-size: cover;
-      background-position: center;
-  }
-  
-  .home-button-getcv{
-      background-color: #6b03fc;
-      border-radius: 5px;
-      font-size: 16px;
-      border: 2px solid #6b03fc; 
-      
-  }
-  
-  .home-button-hireme{
-      background-color: #6b03fc;
-      border-radius: 5px;
-      font-size: 16px;
-      border: 2px solid #6b03fc; 
-      
-      
-  }
-  
-  .portflio-section{
-      background-image: url("../images/port-back-web.jpg");
-      background-size: cover;
-      background-position: center;
-     
-  
-  }
-  
-  .portflio-section h2{
-      position :relative;
-      top:20px;
-      text-align: center;
-  }
-  
-  /* flex parent */
-  .flex-container {
-      /* create flexbox */
-      display: flex;
-      /* instruct it to break onto next line if it runs out of space */
-      flex-wrap: wrap;
-      /* put all unused space between items */
-      justify-content: space-between;
-      width: 100%;
-     
-    }
-    
-    /* flex child */
-    .flex-item {
-      /* make each one 45%, putting 10% between each element on the page */
-      width: 30%;
-      margin:5px;
-      /* rounded corners */
-      border-radius: 14px;
-      border: 4px solid #fb3e55;
-      background-color: #393b4f;
-      font-size: 22px;
-      font-weight: bold;
-      height:500px;
-    
-      /* put space between each one vertically */
-      margin-bottom: 15px;
-    
-     
-    
-     
-    
-      /* padding top and bottom 20px, 0 for left/right */
-      padding: 20px 0;
-    
-      /* set minimum heigh value so there's room */
-      min-height: 250px;
-    
-      /* rather than use position...use flexbox and create column instead of row */
-      display: flex;
-      flex-direction: column;
-    }
-    
-    /* for text area inside of flex item */
-    .flex-item span {
-      /* pushes element to bottom of flex item */
-      margin-top: auto;
-      width: 100%;
-      background-color: #a8adba;
-      color: #393b4f;
-      padding: 10px 5px;
-      text-align: center;
-    }
-  
-    .one{
-     
-      background-image: url("../images/run-buddy.JPG");
-      background-size: cover;
-      background-position: center;
-    
-    }
-  
-    .two{
-      background-image: url("../images/Web-gaint-Horesion.JPG");
-      background-size: cover;
-      background-position: center;
-    }
-  
-    .three{
-      background-image: url("../images/port.JPG");
-      background-size: cover;
-      background-position: center;
-    }
+  box-sizing: border-box;
+}
 
-    .one:hover{
+/* row after for tabular display in case of smaller screens */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-        width:32%;
-        height:600px;
-       
-    }
+/* mbile display arrangements, mobile first approach */
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
 
-    .two:hover{
-        width:32%;
-        height:600px;
-    }
+/* fonts for full page */
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
 
-    .three:hover{
-        width:32%;
-        height:600px;
-    }
+/* header section */
 
-  .contact-section{
-    background-image: url("../images/back-contact-one.jpg");
-    justify-content: space-between;
-  }
+header {
+  background-color: black;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
 
-  .contact-section h2{
-    text-align: center;
-    margin:5px;
-  }
+/* header image */
 
-  .contact-links{
-    color :black;
-  }
+header img {
+  height: 200px;
+  width: 200px;
+}
 
-  /* Changing footer to footer semantic tag */
+/* menu */
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: black;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.footer {
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.home-section {
+  background-image: url("../images/about-me-background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.home-button-getcv {
+  background-color: #6b03fc;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 2px solid #6b03fc;
+}
+
+.home-button-hireme {
+  background-color: #6b03fc;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 2px solid #6b03fc;
+}
+
+.portflio-section {
+  background-image: url("../images/port-back-web.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.portflio-section h2 {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+/* flex parent */
+.flex-container {
+  /* create flexbox */
+  display: flex;
+  /* instruct it to break onto next line if it runs out of space */
+  flex-wrap: wrap;
+  /* put all unused space between items */
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* flex child */
+.flex-item {
+  /* make each one 45%, putting 10% between each element on the page */
+  width: 30%;
+  margin: 5px;
+  /* rounded corners */
+  border-radius: 14px;
+  border: 4px solid #fb3e55;
+  background-color: #393b4f;
+  font-size: 22px;
+  font-weight: bold;
+  height: 500px;
+
+  /* put space between each one vertically */
+  margin-bottom: 15px;
+
+  /* padding top and bottom 20px, 0 for left/right */
+  padding: 20px 0;
+
+  /* set minimum heigh value so there's room */
+  min-height: 250px;
+
+  /* rather than use position...use flexbox and create column instead of row */
+  display: flex;
+  flex-direction: column;
+}
+
+/* for text area inside of flex item */
+.flex-item span {
+  /* pushes element to bottom of flex item */
+  margin-top: auto;
+  width: 100%;
+  background-color: #a8adba;
+  color: #393b4f;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.one {
+  background-image: url("../images/run-buddy.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.two {
+  background-image: url("../images/Web-gaint-Horesion.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.three {
+  background-image: url("../images/port.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.one:hover {
+  width: 32%;
+  height: 600px;
+}
+
+.two:hover {
+  width: 32%;
+  height: 600px;
+}
+
+.three:hover {
+  width: 32%;
+  height: 600px;
+}
+
+.contact-section {
+  background-image: url("../images/back-contact-one.jpg");
+  justify-content: space-between;
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin: 5px;
+}
+
+.contact-links {
+  color: black;
+}
+
+/* Changing footer to footer semantic tag */
 footer {
   padding: 30px;
   clear: both;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
 
@@ -224,50 +216,94 @@ footer {
 footer h2 {
   font-size: 20px;
 }
-  
-  /* RESPONSIVE QUERY FOR Mobile,tablest and other devices VIEW PORT */
-  
-  @media only screen and (min-width: 600px) {
-    /* For tablets and mobiles */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
-    
-    
-  }
 
-  /* RESPONSIVE QUERY FOR DESKTOP VIEW PORT */
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-    
+/* RESPONSIVE QUERY FOR Mobile,tablest and other devices VIEW PORT */
+
+@media only screen and (min-width: 600px) {
+  /* For tablets and mobiles */
+  .col-s-1 {
+    width: 8.33%;
   }
-  /* RESPONSIVE QUERY FOR FLEX CARD OF PORTFOLIO */
-  @media only screen and (min-width: 1722px){
-      .container{
-          width:25%;
-      }
+  .col-s-2 {
+    width: 16.66%;
   }
-  
-  
-  /* Styling end here */
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+/* RESPONSIVE QUERY FOR DESKTOP VIEW PORT */
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+/* RESPONSIVE QUERY FOR FLEX CARD OF PORTFOLIO */
+@media only screen and (min-width: 1722px) {
+  .container {
+    width: 25%;
+  }
+}
+
+/* Styling end here */
