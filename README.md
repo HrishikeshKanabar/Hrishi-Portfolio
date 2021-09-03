@@ -10,7 +10,7 @@ https://hrishikeshkanabar.github.io/Hrishi-Portfolio/
 
 ## Web Application (how to use)
 
-Very unique of website has been desinged esppecially menu to use them from side as it support mobile and many other devices.
+In Very unique way website has been desinged especially menu to use them from side as it support mobile and many other devices.
 
 FEW FEATURES:
 
