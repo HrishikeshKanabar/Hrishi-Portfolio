@@ -163,7 +163,7 @@ a {
 }
 
 .two {
-  background-image: url("../images/Web-gaint-Horesion.JPG");
+  background-image: url("../images/Landing.JPG");
   background-size: cover;
   background-position: center;
 }
@@ -173,6 +173,7 @@ a {
   background-size: cover;
   background-position: center;
 }
+
 
 .one:hover {
   width: 32%;
